@@ -370,6 +370,9 @@ body-nav-button-primary-color #F5F4FA */
 }
 
 .portfolio-preview .title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: var(--primary-title-color);
 
   font-weight: 700;
@@ -379,6 +382,9 @@ body-nav-button-primary-color #F5F4FA */
 }
 
 .portfolio .description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: var(--primary-text-color);
 
   font-weight: 400;
@@ -388,6 +394,9 @@ body-nav-button-primary-color #F5F4FA */
 }
 
 .portfolio-preview .text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
