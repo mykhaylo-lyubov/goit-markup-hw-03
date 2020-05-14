@@ -138,6 +138,8 @@ main {
   border: none;
   padding: 25px 104px;
   border-radius: 4px;
+
+  margin-bottom: 30px;
 }
 
 .our-features .interactive-pic:hover,
@@ -146,6 +148,9 @@ main {
 }
 
 .our-features .title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -155,6 +160,9 @@ main {
 }
 
 .our-features .text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -164,6 +172,9 @@ main {
 /* what-we-are-doing-section */
 
 .heading {
+  margin-top: 0px;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -177,6 +188,10 @@ main {
 }
 
 .production .title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 380px;
+
   color: var(--text-on-the-button-color);
 
   font-weight: 700;
@@ -184,8 +199,11 @@ main {
   line-height: 1.14;
   letter-spacing: 0.03em;
 
-  text-align: center;
   text-transform: uppercase;
+}
+
+.production .title {
+  padding: 27px 87px;
 }
 
 .bg-color {
@@ -195,6 +213,10 @@ main {
 /* our-team */
 
 .team .name {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  width: 278px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -204,6 +226,10 @@ main {
 }
 
 .team .profession {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  width: 278px;
+
   color: var(--primary-text-color);
 
   font-weight: 400;
