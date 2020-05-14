@@ -277,6 +277,9 @@ main {
 }
 
 .footer .address {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -296,6 +299,9 @@ main {
 }
 
 .footer .title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: var(--text-on-the-button-color);
 
   font-weight: 700;
@@ -323,6 +329,9 @@ main {
 }
 
 .authors {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: var(--authors-string-color);
 
   font-weight: 400;
