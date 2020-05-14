@@ -92,6 +92,11 @@ main {
 }
 
 .button-hero {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  text-align: center;
+
   background-color: var(--accent-color);
   color: var(--text-on-the-button-color);
 
@@ -242,6 +247,10 @@ main {
 .button-footer {
   background-color: var(--accent-color);
   color: var(--text-on-the-button-color);
+  padding: 10px 45px;
+
+  border: 1px solod var(--accent-color);
+  border-radius: 4px;
 
   font-weight: 900;
   font-size: 16px;
@@ -274,6 +283,10 @@ body-nav-button-primary-color #F5F4FA */
 .portfolio .button-portfolio {
   color: var(--primary-title-color);
   background-color: var(--portfolio-body-nav-button-primary-color);
+
+  padding: 6px 22px;
+  border-radius: 4px;
+  border-color: var(--portfolio-body-nav-button-primary-color);
 
   font-weight: 500;
   font-size: 16px;
