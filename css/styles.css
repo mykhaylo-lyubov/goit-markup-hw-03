@@ -107,8 +107,6 @@ background for the footer: #2F303A */
   margin-left: auto;
 }
 
-/* почему не работает левый марджин?? */
-
 .auth-nav .link {
   display: block;
   padding-top: 32px;
@@ -187,6 +185,7 @@ main {
 }
 
 .our-features > .container {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -283,6 +282,10 @@ main {
 
 /* our-team */
 
+.team {
+  background-color: var(--portfolio-body-nav-button-primary-color);
+}
+
 .team .list {
   display: flex;
 }
@@ -342,9 +345,15 @@ main {
 
 /* footer */
 
-/* background color for the footer only for better view */
 .footer {
-  background-color: #434343;
+  background-color: #2f303a;
+}
+
+.footer-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 48px;
 }
 
 .logo-link-footer {
@@ -379,6 +388,15 @@ main {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.footer address {
+  margin-top: 10px;
+}
+
+.contacts > .item {
+  margin-top: 9px;
+}
+
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 
@@ -419,6 +437,16 @@ main {
   letter-spacing: 0.06em;
 
   text-align: center;
+}
+
+.join-us .social-links {
+  display: flex;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
 }
 
 .authors {
@@ -488,8 +516,20 @@ body-nav-button-primary-color #F5F4FA */
   justify-content: center;
 }
 
-.portfolio .item:not(:nth-child(3n + 1)) {
+.portfolio-preview .item {
+  width: calc((100% - 60px) / 3);
+}
+
+.portfolio-preview .item:not(:nth-child(3n + 1)) {
   margin-left: 30px;
+}
+
+.portfolio-preview .item {
+  margin-bottom: 30px;
+}
+
+.portfolio-preview .item:nth-last-child(-n + 3) {
+  margin-bottom: 94px;
 }
 
 .portfolio-preview a {
