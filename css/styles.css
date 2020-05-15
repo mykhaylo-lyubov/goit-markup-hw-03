@@ -35,6 +35,8 @@ background for the footer: #2F303A */
   margin-left: auto;
   margin-right: auto;
   width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
   outline: 2px solid #212121;
 }
 
@@ -65,7 +67,30 @@ background for the footer: #2F303A */
   text-decoration: none;
 }
 
+.header > .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 80px;
+}
+
+.site-nav > .item + .item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-title-color);
 }
 
@@ -75,6 +100,25 @@ background for the footer: #2F303A */
 .auth-nav .link:focus {
   color: var(--accent-color);
 }
+
+.auth-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+/* почему не работает левый марджин?? */
+
+.auth-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.auth-nav > .item + .item {
+  margin-left: 30px;
+}
+
 .auth-nav .link,
 main .text {
   color: var(--primary-text-color);
@@ -132,6 +176,19 @@ main {
   margin-bottom: 0px;
 }
 
+.our-features .list {
+  display: flex;
+  justify-content: center;
+}
+
+.our-features .item + .item {
+  margin-left: 30px;
+}
+
+.our-features > .container {
+  padding-bottom: 94px;
+}
+
 .our-features .interactive-pic {
   background-color: var(--portfolio-body-nav-button-primary-color);
   border: 1px solid transparent;
@@ -183,6 +240,19 @@ main {
   text-align: center;
 }
 
+.our-job > .container {
+  padding-bottom: 94px;
+}
+
+.production {
+  display: flex;
+  justify-content: center;
+}
+
+.production > .item + .item {
+  margin-left: 30px;
+}
+
 .production a {
   text-decoration: none;
 }
@@ -212,6 +282,10 @@ main {
 
 /* our-team */
 
+.team .list {
+  display: flex;
+}
+
 .team .name {
   margin-top: 30px;
   margin-bottom: 0px;
@@ -223,6 +297,15 @@ main {
   letter-spacing: 0.03em;
 
   text-align: center;
+}
+
+.team .item + .item {
+  margin-left: 30px;
+}
+
+.team .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team .profession {
@@ -246,6 +329,15 @@ main {
 }
 
 /* clients */
+
+.our-clients > .container {
+  padding-top: 94px;
+}
+
+.our-clients .list {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* footer */
 
