@@ -244,6 +244,10 @@ main {
   padding-bottom: 94px;
 }
 
+.production img {
+  display: block;
+}
+
 .production {
   display: flex;
   justify-content: center;
