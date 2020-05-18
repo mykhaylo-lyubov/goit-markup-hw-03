@@ -10,7 +10,8 @@ footer address color: rgba(255, 255, 255, 0.6);
 social links primary background: rgba(255, 255, 255, 0.1);
 dev string color: rgba(255, 255, 255, 0.4);
 backgroung for the features: #F5F4FA
-background for the footer: #2F303A */
+background for the footer: #2F303A 
+clients border colour: #AFB1B8 */
 
 :root {
   --accent-color: #2196f3;
@@ -19,6 +20,7 @@ background for the footer: #2F303A */
   --text-on-the-button-color: #ffffff;
   --portfolio-body-nav-button-primary-color: #f5f4fa;
   --authors-string-color: rgba(255, 255, 255, 0.4);
+  --clients-border-color: #afb1b8;
 }
 
 .page {
@@ -38,6 +40,10 @@ background for the footer: #2F303A */
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 2px solid #212121; */
+}
+
+.display-block {
+  display: block;
 }
 
 /* header  */
@@ -244,10 +250,6 @@ main {
   padding-bottom: 94px;
 }
 
-.production img {
-  display: block;
-}
-
 .production {
   display: flex;
   justify-content: center;
@@ -340,24 +342,58 @@ main {
 
 .our-clients > .container {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .our-clients .list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.our-clients .item {
+  border: 1px solid var(--clients-border-color);
+  border-radius: 4px;
+}
+
+.our-clients .item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.our-clients .item:nth-child(1) {
+  padding: 21px 64px;
+}
+
+.our-clients .item:nth-child(2) {
+  padding: 19px 66px;
+}
+
+.our-clients .item:nth-child(3) {
+  padding: 24px 63px;
+}
+
+.our-clients .item:nth-child(4) {
+  padding: 25px 47px;
+}
+
+.our-clients .item:nth-child(5) {
+  padding: 21px 58px;
+}
+
+.our-clients .item:nth-child(6) {
+  padding: 23px 43px;
 }
 
 /* footer */
 
 .footer {
   background-color: #2f303a;
+  padding-top: 48px;
 }
 
 .footer-main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 48px;
 }
 
 .logo-link-footer {
