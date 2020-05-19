@@ -36,7 +36,7 @@ clients border colour: #AFB1B8 */
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 2px solid #212121; */
@@ -85,7 +85,7 @@ clients border colour: #AFB1B8 */
 
 .site-nav {
   display: flex;
-  margin-left: 80px;
+  margin-left: 85px;
 }
 
 .site-nav > .item + .item {
@@ -140,12 +140,20 @@ main {
   text-align: center;
 }
 
+.hero {
+  background-color: teal;
+}
+
+.hero .container {
+  background-color: red;
+}
+
 .hero-title {
   color: #ffffff;
-  background-color: #2196f3; /*background is given only for preview */
+  /* background-color: #2196f3; background is given only for preview */
 
-  margin-top: 0px;
-  margin-bottom: 46px;
+  padding-top: 200px;
+  padding-bottom: 46px;
 
   font-weight: 900;
   font-size: 44px;
@@ -173,7 +181,15 @@ main {
   text-decoration: none;
 }
 
+.hero .around-button-hero {
+  padding-bottom: 200px;
+}
+
 /* Our features */
+
+.our-features {
+  background-color: yellow;
+}
 
 .our-features > h2 {
   margin-top: 0px;
@@ -186,6 +202,12 @@ main {
   justify-content: center;
 }
 
+.our-features .item {
+  display: block;
+
+  width: calc((100% - 90px) / 4);
+}
+
 .our-features .item + .item {
   margin-left: 30px;
 }
@@ -193,13 +215,15 @@ main {
 .our-features > .container {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  background-color: blue;
 }
 
 .our-features .interactive-pic {
   background-color: var(--portfolio-body-nav-button-primary-color);
   border: 1px solid transparent;
   border: none;
-  padding: 25px 104px;
+  padding: 25px 100px;
   border-radius: 4px;
 
   margin-bottom: 30px;
@@ -234,6 +258,14 @@ main {
 
 /* what-we-are-doing-section */
 
+.our-job {
+  background-color: tomato;
+}
+
+.our-job > .container {
+  background-color: teal;
+}
+
 .heading {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -247,12 +279,17 @@ main {
 }
 
 .our-job > .container {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .production {
   display: flex;
   justify-content: center;
+}
+
+.production > .item {
+  width: calc((100% - 60px) / 3);
 }
 
 .production > .item + .item {
@@ -266,7 +303,6 @@ main {
 .production .title {
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 380px;
 
   color: var(--text-on-the-button-color);
 
@@ -279,7 +315,7 @@ main {
 }
 
 .production .title {
-  padding: 27px 87px;
+  padding: 27px 82px;
 }
 
 .bg-color {
